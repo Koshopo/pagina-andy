@@ -1,0 +1,49 @@
+*{
+    font-family: Georgia, serif;
+}
+
+.info{
+    display: flex;
+    width: 100%;
+    box-shadow: 7px 7px 15px black;
+    margin-top: 30px;
+}
+
+.info .imagen img{
+    width: 50%;
+    height: 580px;
+    width: 430px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.info .texto{
+    margin-left: 20px;
+}
+
+.info .texto p{
+    font-size: 1.25rem;
+    padding-right: 20px;
+}
+
+.info .texto .instagram i{
+    color: black;
+    font-size: 3rem;
+}
+
+.info .texto .instagram i:hover{
+    transition: 1s;
+    color: rgb(143, 88, 143);
+}
+
+.info .texto .tiktok i{
+    color: black;
+    font-size: 3rem;
+    margin-top: 20px;
+}
+
+.info .texto .tiktok i:hover{
+    transition: 1s;
+    color: #ff0050;
+}

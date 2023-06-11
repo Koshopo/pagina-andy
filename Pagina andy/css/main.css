@@ -1,0 +1,213 @@
+
+.header{
+    background-color: black;
+    width: 100%;
+    display: flex;
+}
+
+.header .titulo{
+    font-family: 'Josefin Sans', sans-serif;
+    color: aliceblue;
+    margin: 20px;
+    padding: 20px;
+    width: 50%;
+    padding-top: 85px;
+    padding-left: 25px;
+}
+
+.header .titulo .instagram i{
+    color: white;
+    font-size: 3rem;
+}
+.header .titulo .instagram i:hover{
+    color: rgb(143, 88, 143);
+    transition: 1s;
+}
+
+.header .titulo .tiktok i{
+    color: white;
+    font-size: 3rem;
+    margin-top: 20px;
+}
+
+.header .titulo .tiktok i:hover{
+    color: #ff0050;
+    transition: 1s;
+}
+
+.header .imagen img{
+    width: 50%;
+    padding: 20px;
+    padding-right: 0;
+    justify-content: right;
+}
+
+/*1era fila*/
+
+.galeria1{
+    width: 100%;
+    display: flex;
+}
+
+.galeria1 .foto1 img{
+    width: 33%;
+    width: 300px;
+    margin: 80px;
+    margin-left: 45px;
+}
+
+.galeria1 .foto2 img{
+    width: 33%;
+    width: 300px;
+    margin: 80px;
+}
+
+.galeria1 .foto3 img{
+    width: 33%;
+    width: 300px;
+    margin: 80px;
+}
+
+.cajaboton1{
+    width: 100%;
+    display: flex;
+    margin-top: 0px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.cajaboton1 .boton1 a{
+    width: 33%;
+    width: 100px;
+    text-decoration: none;
+    background-color: black;
+    margin: 185px;
+    margin-left: 60px;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.cajaboton1 .boton2 a{
+    width: 33%;
+    width: 100px;
+    text-decoration: none;
+    background-color: black;
+    margin: 150px;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.cajaboton1 .boton3 a{
+    width: 33%;
+    width: 100px;
+    text-decoration: none;
+    background-color: black;
+    margin: 185px;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.cajaboton1 .boton1 a:hover{
+    background-color: grey;
+    transition: 1s;
+}
+
+.cajaboton1 .boton2 a:hover{
+    background-color: grey;
+    transition: 1s;
+}
+
+.cajaboton1 .boton3 a:hover{
+    background-color: grey;
+    transition: 1s;
+}
+
+/*2da fila*/
+
+.galeria2{
+    width: 100%;
+    display: flex;
+}
+
+.galeria2 .foto4 img{
+    width: 33%;
+    width: 300px;
+    margin: 80px;
+    margin-left: 45px;
+}
+
+.galeria2 .foto5 img{
+    width: 33%;
+    width: 300px;
+    margin: 80px;
+}
+
+.galeria2 .foto6 img{
+    width: 33%;
+    width: 300px;
+    margin: 80px;
+}
+
+.cajaboton2{
+    width: 100%;
+    display: flex;
+    margin-top: 0px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.cajaboton2 .boton4 a{
+    width: 33%;
+    width: 100px;
+    text-decoration: none;
+    background-color: black;
+    margin: 185px;
+    margin-left: 60px;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.cajaboton2 .boton5 a{
+    width: 33%;
+    width: 100px;
+    text-decoration: none;
+    background-color: black;
+    margin: 150px;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.cajaboton2 .boton6 a{
+    width: 33%;
+    width: 100px;
+    text-decoration: none;
+    background-color: black;
+    margin: 185px;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.cajaboton2 .boton4 a:hover{
+    background-color: grey;
+    transition: 1s;
+}
+
+.cajaboton2 .boton5 a:hover{
+    background-color: grey;
+    transition: 1s;
+}
+
+.cajaboton2 .boton6 a:hover{
+    background-color: grey;
+    transition: 1s;
+}

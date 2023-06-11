@@ -1,0 +1,12 @@
+.barra{
+    background-color: black;
+}
+
+.barra a{
+    background-color: white;
+    text-decoration: none;
+}
+
+.info .texto h5{
+    color: red;
+}
